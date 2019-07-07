@@ -33,6 +33,8 @@ gem 'better_errors', '~> 2.5', '>= 2.5.1'
 gem 'bulma-rails', '~> 0.7.5'
 # Form made easy
 gem 'simple_form', '~> 4.1'
+# Guard is a command line tool to easily handle events on file system modifications.
+gem 'guard', '~> 2.15'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
