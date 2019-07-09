@@ -28,7 +28,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 
 # Make errors better looking
-gem 'better_errors', '~> 2.5', '>= 2.5.1'
+# gem 'better_errors', '~> 2.5', '>= 2.5.1'
 # Bulma css - A modern Css framework based on Flexbox
 gem 'bulma-rails', '~> 0.7.5'
 # Form made easy
