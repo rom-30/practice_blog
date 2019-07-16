@@ -28,13 +28,13 @@
 
 <section class="section comments">
   <div class="container">
-    <h2 class="sutbtiles is-5">
-      <strong><%= @post.comments.count %></strong> <%= "Comment".pluralize %>
+    <h2 class="sutbtile is-5">
+      <strong><%= @post.comments.count %></strong> <%= "Comment".pluralize(@post.comments.count) %>
     </h2>
     <%= render @post.comments %>
     <div class="comment-form">
       <hr>
-      <h3 class="subtitles is-3">Leave a reply</h3>
+      <h3 class="subtitle is-3">Leave a reply</h3>
       <%#= raise %>
       <%= render 'comments/form' %>
     </div>
