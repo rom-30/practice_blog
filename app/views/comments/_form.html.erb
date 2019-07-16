@@ -9,6 +9,13 @@
       <%= f.input :body, input_html: { class: 'textarea'}, wrapper: false, label_html: {class: 'label'} %>
     </div>
   </div>
-  <%= f.button :submit, 'Leave a reply', class: "button is-primary" %>
+  <% if @post.comments.blank? %>
+    <%= f.button :submit, 'Submit comment', class: "button is-link" %>
+
+  <% else %>
+    <%= f.button :submit, 'Edit comment', class: "button is-link" %>
+
+  <% end %>
+  <%#= f.button :submit, 'Submit comment', class: "button is-link" %>
 <% end %>
 
